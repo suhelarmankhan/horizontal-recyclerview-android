@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <jp.wasabeef.richeditor.RichEditor
+        android:id="@+id/rich_editor"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/recyclerView"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"/>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/recyclerView"
+    android:layout_alignParentBottom="true"
+
+    />
+</RelativeLayout>
